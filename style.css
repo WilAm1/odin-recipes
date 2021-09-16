@@ -7,10 +7,21 @@ body {
     margin: 2em auto;
     width: 40%;
     background-color: #F7F6F2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-    color: #4B6587;
+h1,
+h2,
+h3 {
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    line-height: 2;
 }
 
 footer {
@@ -20,8 +31,16 @@ footer {
 img {
     width: 300px;
     height: auto;
-    border: solid 2px #79B4B7;
+    border: solid 4px #4B6587;
     border-radius: 20px;
+}
+
+img:hover {
+    transform: scale(1.11);
+}
+
+li {
+    margin: 1em;
 }
 
 ul li {
@@ -33,12 +52,11 @@ ol li {
 }
 
 a {
+    font-size: 1.2em;
     text-decoration: underline;
-    background-color: #F0E5CF;
     color: #4B6587;
 }
 
 a:hover {
-    color: #C8C6C6;
-    background-color: #F7F6F2;
+    color: #79B4B7;
 }
