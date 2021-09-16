@@ -1,10 +1,16 @@
 * {
     text-align: center;
+    color: #4B6587;
 }
 
 body {
     margin: 2em auto;
     width: 40%;
+    background-color: #F7F6F2;
+}
+
+h1 {
+    color: #4B6587;
 }
 
 footer {
@@ -14,4 +20,25 @@ footer {
 img {
     width: 300px;
     height: auto;
+    border: solid 2px #79B4B7;
+    border-radius: 20px;
+}
+
+ul li {
+    text-align: center;
+}
+
+ol li {
+    text-align: left;
+}
+
+a {
+    text-decoration: underline;
+    background-color: #F0E5CF;
+    color: #4B6587;
+}
+
+a:hover {
+    color: #C8C6C6;
+    background-color: #F7F6F2;
 }
